@@ -1,0 +1,17 @@
+.navbar-brand img {
+  width: 200px;
+}
+
+.search-form {
+  width: 400px;
+}
+
+.search-btn {
+  background-color: tomato;
+  color: white;
+  padding: 12px 25px;
+}
+.form-control:focus {
+  border-color: tomato;
+  box-shadow: none;
+}
