@@ -15,3 +15,33 @@
   border-color: tomato;
   box-shadow: none;
 }
+
+.details-card {
+  width: 65%;
+}
+
+@media screen and (max-width: 768px) {
+  .details-card {
+    width: 100%;
+  }
+}
+.card-img {
+  height: 300px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  border: none;
+}
+.list-group-item {
+  border: none;
+}
+
+.fa-check-square {
+  color: tomato;
+}
