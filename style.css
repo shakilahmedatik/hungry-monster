@@ -45,3 +45,7 @@ img {
 .fa-check-square {
   color: tomato;
 }
+
+.details-btn img:hover {
+  cursor: pointer;
+}
