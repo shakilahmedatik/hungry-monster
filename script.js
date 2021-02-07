@@ -27,11 +27,11 @@ function updateUi() {
       data.meals.forEach((meal) => {
         const mealItem = `
                         <div class="col details-btn" data-id = "${meal.idMeal}">
-                            <div class="border rounded bg-light">
+                            <div class="border rounded shadow">
                                 <div class="card" ">
                                     <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <p class="card-text text-center fw-bold">${meal.strMeal}</p>
+                                        <p class="card-text mini-title text-center fw-bold">${meal.strMeal}</p>
                                     </div>
                                 </div>
                             </div>
@@ -61,8 +61,8 @@ detailsBtn.addEventListener("click", function (e) {
                         class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                       <h3 class="mt-3 card-title meal-name">${meal.strMeal}</h3>
-                       <h5 class="mt-3 card-title">Ingredients</h5>
+                       <h3 class="mt-3 card-title main-title meal-name">${meal.strMeal}</h3>
+                       <h5 class="mt-3 mini-title card-title">Ingredients</h5>
                     </div>
                       <ul class="list-group list-group-flush ">
                       <li class="list-group-item"><i class="fas fa-check-square"></i>  ${meal.strIngredient1}</li>
