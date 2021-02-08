@@ -52,7 +52,7 @@ img {
   color: tomato;
 }
 
-.details-btn img:hover {
+.details-btn:hover {
   cursor: pointer;
 }
 
